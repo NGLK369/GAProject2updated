@@ -1,8 +1,8 @@
 import React from 'react';
-import { Route, Routes, Link } from 'react-router-dom'; // Import Link here
+import { Route, Routes, Link } from 'react-router-dom'; 
 import './App.css';
 import CurrencyConverter from './Components/CurrencyConverter';
-import About from './Components/About'; // Create this component
+import About from './Components/About'; 
 
 const App = () => {
   return (

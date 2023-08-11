@@ -8,7 +8,6 @@ const Home = () => {
         <p>
           Welcome to the Currency Converter! Use the form below to convert currencies.
         </p>
-        {/* Add your currency converter form and components here */}
       </div>
     </div>
   );

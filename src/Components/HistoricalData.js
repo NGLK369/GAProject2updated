@@ -28,8 +28,8 @@ const HistoricalData = ({ showAll, historyData, handleToggleCurrencies }) => {
   };
 
   const tableContainerStyle = {
-    maxHeight: '300px', // Set the maximum height of the table container
-    overflowY: 'auto',  // Enable vertical scrolling when content exceeds the height
+    maxHeight: '300px', 
+    overflowY: 'auto',  
   };
 
   const formatRate = (rate) => {
@@ -39,7 +39,7 @@ const HistoricalData = ({ showAll, historyData, handleToggleCurrencies }) => {
   return (
     <div className="historical-data">
       <h2>Historical exchange rates</h2>
-      <div style={tableContainerStyle}> {/* Wrap the table with the scrolling container */}
+      <div style={tableContainerStyle}> 
         <table style={tableStyle}>
           <thead>
             <tr>
